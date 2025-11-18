@@ -1,3 +1,4 @@
+pub mod mitm;
 pub mod utils;
 pub mod hastad;
 
