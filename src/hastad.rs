@@ -1,5 +1,5 @@
-use num_bigint::BigInt;
 use crate::utils;
+use num_bigint::BigInt;
 use std::time::Instant;
 
 pub fn se_attack(ciphertexts: Vec<BigInt>, modules: Vec<BigInt>, exponent: u32) -> (String, u128) {
